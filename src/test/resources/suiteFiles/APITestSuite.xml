@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suite name="Dailyfinance Automation">
+
+    <listeners>
+        <listener class-name="com.dailyfinance.listeners.TestListener"></listener>
+    </listeners>
+
+    <test name="User Registration">
+        <classes>
+            <class name="APITestRunner.RegistrationApiTestRunner"></class>
+        </classes>
+    </test>
+
+    <test name="Admin Activity">
+        <classes>
+            <class name="APITestRunner.AdminApiTestRunner"></class>
+        </classes>
+    </test>
+
+    <test name="User Activity">
+        <classes>
+            <class name="APITestRunner.UserApiTestRunner"></class>
+        </classes>
+    </test>
+
+
+
+</suite>

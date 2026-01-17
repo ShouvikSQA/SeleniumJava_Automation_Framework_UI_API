@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suite name="Dailyfinance Automation">
+
+    <listeners>
+        <listener class-name="com.dailyfinance.listeners.TestListener"></listener>
+    </listeners>
+
+    <test name="Registration Test Runner">
+        <classes>
+            <class name="UITestRunner.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+
+    <test name="Reset Password">
+        <classes>
+            <class name="UITestRunner.ResetPasswordTestRunner"></class>
+        </classes>
+    </test>
+
+    <test name="User Profile Update">
+        <classes>
+            <class name="UITestRunner.UserProfileTestRunner"></class>
+        </classes>
+    </test>
+
+        <test name="User Can Add Cost">
+            <classes>
+                <class name="UITestRunner.UserDashboardTestRunner"></class>
+            </classes>
+        </test>
+
+    <test name="Admin Login">
+        <classes>
+            <class name="UITestRunner.AdminLoginTestRunner"></class>
+        </classes>
+    </test>
+
+
+    <test name="Admin Dashboard Search">
+        <classes>
+            <class name="UITestRunner.AdminDashboardTestRunner"></class>
+        </classes>
+    </test>
+
+
+</suite>
